@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+h2.heading_login{
+    position: relative;
+    top: 80px;
+    margin-bottom: 0.2Arem;
+    font-weight: bold;
+    font-size: 36px;
+    color: #00a497;
+    text-align: center;
+}
+h2.heading_login::before{
+    position: absolute;
+    top: -50px;
+    left: -50%;
+    transform: translateX(-50%);
+    color: #99FFFF;
+    font-size: 90px;
+    text-transform: uppercase;
+    content: 'EAT FOOD';
+    z-index: -1;
+}
+.container1{
+    position: relative;
+    display:block;
+    margin:auto;
+    top: 150px;
+}
+.container2{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 200px;
+}
+.com_text{
+    position: absolute;
+    font-size:18px;
+    top: 0;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+.input_button{
+    position:absolute;
+    top:30px;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.login_button{
+    display:block;
+    margin: auto;
+    color: #ffffff;
+    background: #66d1ff;
+}
+.to_login_page_button{
+    display:block;
+    margin: auto;
+    color: #ffffff;
+    background: #66d1ff;
+    position: relative;
+    top: 300px;
+}
+.question_box{
+    display: block;
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    background-color: #f4f9ff;
+    border: 1px solid #84c1ff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: #000000;
+}
+.question_box p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 24px;
+}
+.ty_user_text_wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.ty_user_text{
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    font-weight: normal;
+    margin-bottom: 35px;
+    font-size: 40px;
+    text-align: center;
+}
+.ty_user_text-point{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    width: 10px auto 0;
+    background-color: #fff;
+}
+.to_master_text{
+    margin-top: 0;
+    padding: 1em 1.5em;
+    background: #fff2e4;
+    color: #000000;
+}
+.master_title{
+    padding:0.5em 0.5em 0.4em;
+    text-align: center;
+    font-size: 1.3em;
+    background: #ff9b38;
+    border-bottom: 3px solid #ff7f00;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.master_title p{
+    margin-bottom: 0;
+}
